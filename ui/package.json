@@ -12,6 +12,7 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.16.0",
     "@mui/material": "latest",
     "@remix-run/css-bundle": "latest",
     "@remix-run/node": "latest",
