@@ -1,0 +1,37 @@
+.dashboard-container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .date-and-occupancy,
+  .activity-stats,
+  .guest-activity-list,
+  .forecast-stats {
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 16px;
+  }
+  
+  .date-and-occupancy .MuiCircularProgress-root {
+    position: relative;
+  }
+  
+  .guest-activity-list .MuiListItem-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .guest-activity-list .MuiButton-root {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .guest-activity-list .MuiButton-root:hover {
+    background-color: #115293;
+  }
+  
+  .forecast-stats .stat-box {
+    text-align: center;
+  }
+  
